@@ -10,7 +10,8 @@ function generateLogo(logoDetails) {
       logoDetails.text,
       50
     );
-    shape.generateSVG();
+
+    return shape.generateSVG();
   }
   if (logoDetails.shape.toLowerCase() === "square") {
     shape = new Square(
@@ -18,7 +19,7 @@ function generateLogo(logoDetails) {
       logoDetails.textColor,
       logoDetails.text
     );
-    shape.generateSVG();
+    return shape.generateSVG();
   }
   if (logoDetails.shape.toLowerCase() === "traingle") {
     shape = new Traingle(
@@ -26,7 +27,7 @@ function generateLogo(logoDetails) {
       logoDetails.textColor,
       logoDetails.text
     );
-    shape.generateSVG();
+    return shape.generateSVG();
   }
 }
 
