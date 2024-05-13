@@ -4,14 +4,15 @@ function generateLogo(logoDetails) {
   let shape;
 
   if (logoDetails.shape.toLowerCase() === "circle") {
+    let defaultRadius = 50;
     shape = new Circle(
       logoDetails.shapeColor,
       logoDetails.textColor,
       logoDetails.text,
-      50
+      defaultRadius
     );
 
-    return shape.generateSVG();
+    return shape.render();
   }
   if (logoDetails.shape.toLowerCase() === "square") {
     shape = new Square(
@@ -19,7 +20,7 @@ function generateLogo(logoDetails) {
       logoDetails.textColor,
       logoDetails.text
     );
-    return shape.generateSVG();
+    return shape.render();
   }
   if (logoDetails.shape.toLowerCase() === "traingle") {
     shape = new Traingle(
@@ -27,7 +28,7 @@ function generateLogo(logoDetails) {
       logoDetails.textColor,
       logoDetails.text
     );
-    return shape.generateSVG();
+    return shape.render();
   }
 }
 
