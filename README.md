@@ -6,7 +6,7 @@ This application was created to generate a simple logo for any users who want to
 
 ## Video Demo
 
-For a detailed demonstration of how to use the project, please refer to the walkthrough video: [SVG Logo Generator (Youtube)](https://youtu.be/YYBWVCgFsT4)
+For a detailed demonstration of how to use the project, please refer to the walkthrough video: [SVG Logo Generator (Youtube)](https://youtu.be/jUdqf0jhuls)
 
 ## Installation
 
